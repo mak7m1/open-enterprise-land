@@ -10,3 +10,11 @@
     font-family:BelyDisplay-Regular ;
     src: url(../fonts/BelyDisplay-Regular.woff2);
 }
+@font-face {
+    font-family:afuturarounddemi;
+    src: url(../fonts/afuturarounddemi.woff2);
+}
+@font-face {
+    font-family:proxima-nova-medium ;
+    src: url(../fonts/proxima-nova-medium.woff2);
+}
