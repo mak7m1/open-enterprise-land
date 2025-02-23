@@ -33,8 +33,10 @@ font-family: afuturarounddemi;
     color: #71A894;
 }
 .applications{
+    justify-content: space-between;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 .applications__left{
     padding: 0 0 0 30px;
@@ -64,10 +66,14 @@ font-family: afuturarounddemi;
     font-size: 18px;
 }
 .applications__img{
-    
+    max-width: 100%;
+    height: auto;
 }
 .applications__right{
-
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    flex-shrink: 0;
 }
 .info{
     display: flex;
